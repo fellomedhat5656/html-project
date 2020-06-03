@@ -6,7 +6,24 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
+.btn {
+  transition:.5s;
+  background-color: black;
+  float:center;
+  border: 1px white solid;
+  border-radius:15px;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+.btn:hover {
+  color: black;
+  background-color:white ;
+  transition:.5s;
+}
 input[type=submit] {
   background-color: #4CAF50;
   color: white;

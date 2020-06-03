@@ -2,9 +2,28 @@
 {  
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background:url(../img/bg1.jpg) no-repeat;
+  
 }
-
+.btn {
+  transition:.5s;
+  background-color: black;
+  border: 1px white solid;
+  border-radius:15px;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition:.5s;
+}
+.btn:hover {
+  color: black;
+  background-color:white ;
+  transition:.5s;
+}
 html {
   box-sizing: border-box;
   background:url(../img/bg2.jpg) no-repeat;
